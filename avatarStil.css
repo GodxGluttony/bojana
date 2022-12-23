@@ -1,0 +1,179 @@
+/*boja teksta u navigaciji #03cbf7*/
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+ }
+p, a, h1, h3 {
+	font-family: "Avatar";
+	text-decoration: none;
+}
+img {  
+	width: 100%;
+}
+li {
+	list-style: none;
+}
+.header {
+	height: 100%;
+	background-image: url(avatar2.gif );
+	background-size: cover;
+	background-position: center;
+}
+.navigacija {
+	position: fixed;
+	z-index: 99;
+	top: 0;
+	height: 80px;
+	width: 100%;
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.9);
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+}
+.navigacija ul {
+	display: flex;
+}
+.navigacija ul li {
+	margin-right: 40px;
+}
+.navigacija ul li a {
+	font-size: 20px;
+	color: #03cbf8;
+	letter-spacing: 2;
+}
+.logo {
+	width: 60px;
+	margin-left: 70px;
+}
+
+.naslovSekcija {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.naslovSekcija h1 {
+	font-size: 90px;
+	letter-spacing: 5;
+	text-align: center;
+}
+.naslovSekcija h2{
+	text-align: right;
+
+	
+}
+.galerijaSekcija {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	background-image: url(pozadina3.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.galerija {
+	display: flex;
+	flex-direction: column;
+}
+.galerija h3 {
+	position: sticky;
+	top: 110px;
+	color: black;
+	letter-spacing: 6;
+	font-size: 65px;
+	text-align: center;
+}
+
+.gal {
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	align-self: center;
+}
+.gal .slika {
+	margin-top: 25px;
+	border-color: black;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 10px;
+	width: 30%;
+}
+.gal .slika img {
+	border-radius: 10px;
+}
+
+.pricaFilma {
+	height: 100%;
+	width: 80%;
+	padding-left: 10%;
+	background-image: url(slikaGalerije2.jpg);
+	background-size: cover;
+	background-position: top center;
+	margin-top: -65px;
+}
+.pricaFilma h3 {
+	position: sticky;
+	top: 110px;
+	color: black;
+	letter-spacing: 6;
+	font-size: 65px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.pricaFilma p {
+	text-align: center;
+	padding-top: 80px;
+	font-size: 28px;
+	color: black;
+}
+
+iframe{
+	margin: auto;
+	width: 50%;
+	height: 500px;
+	padding-left: 25%;
+	padding-bottom: 120px;
+}
+.shop img{
+	width: 1000px;
+	padding-left: 25%;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.shop h3 {
+	position: sticky;
+	top: 110px;
+	color: black;
+	letter-spacing: 6;
+	font-size: 65px;
+	text-align: center;
+	margin-top: 50px;
+}
+.kino1 img{
+	width: auto;
+	height: 80%;
+	padding-left: 35%;
+	margin-top: 50px;
+}
+.kino1 h3 {
+	position: sticky;
+	top: 110px;
+	color: black;
+	letter-spacing: 6;
+	font-size: 65px;
+	text-align: center;
+	margin-top: 60px;
+}
